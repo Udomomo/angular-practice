@@ -13,4 +13,7 @@ export class LikeButtonComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  incrementCounter(): void {
+    this.count += 1;
+  }
 }
